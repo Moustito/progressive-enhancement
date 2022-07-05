@@ -1,0 +1,85 @@
+p {
+	font-size: 12px;
+	font-family: times, serif;
+	font: purple;
+	letter-spacing: 1px;
+}
+
+a:link {
+ 	 text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+a:visited {
+  	text-decoration: none;
+ 	color: #4b2f89;
+}
+
+body {
+	width: 90%;
+	margin: auto;
+	background: -webkit-linear-gradient(90deg, rgb(237, 234, 22), rgb(255, 118, 0));
+	background: linear-gradient(90deg, rgb(237, 234, 22), rgb(255, 118, 0));
+/*	background-image: url('https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');*/
+	background-size: cover;
+}
+
+blockquote {
+	font-size: 160%;
+	background-color: #A9A9A9;
+	border-left: solid firebrick ;
+	padding-left: 10px;
+	margin: 80px 0px 80px 0px;
+	width: 50%;
+        margin: auto;
+}
+
+.Voisin {
+	border-left: solid Orange ;
+        padding-left: 1px;
+	quotes: none;
+	font-style: italic;
+}
+.Farmer{
+	border-left: solid Yellow ;
+        padding-left: 1px;
+	quotes: none;
+	font-family: italic;
+}
+
+header>h1 {
+	background-color: yellow;
+}
+
+.Good {
+	background-color: green;
+	text-transform: uppercase;
+}
+.Bad {
+	background-color: red;
+	text-transform: uppercase;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+ul { list-style: none outside none; margin:0; padding: 0; }
+li {
+	background-repeat: no-repeat;
+        padding-left: 30px;
+        background-size: contain;
+}
+li:first-child {
+	background-image: url('asset/bien.png');
+}
+li:nth-child(2) {
+        background-image: url('asset/mal.png');
+} 
+li:nth-child(3) {
+        background-image: url('asset/chat.png');
+}
+p:first-of-type {
+	font-weight: bold;
+}
